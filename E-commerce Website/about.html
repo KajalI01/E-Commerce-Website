@@ -1,0 +1,152 @@
+<!-- <!DOCTYPE html>
+<head>
+</head>
+<html>
+    <body>
+        <section class="section">
+            <h1>About Us</h1>
+            <div class="intro">
+                <h3></h3>
+                <h2>
+                    Up to</br>
+               <span class="dis">30% 
+                 Discount</span></br>
+               on This <br />
+               New Year Season
+             </h2>
+             <h3>From 1st Jan to 31st Jan</h3>
+             
+           </div>
+        </section>
+    </body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #30dadd;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Amazon</h1>
+    <p>Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking.</p>
+    <p>Amazon strives to be Earth's most customer-centric company, Earth's best employer, and Earth's safest place to work.</p>
+    <p>Customer reviews, 1-Click shopping, personalized recommendations, Prime, Fulfillment by Amazon, AWS, Kindle Direct Publishing, Kindle, Career Choice, Fire tablets, Fire TV, Amazon Echo, Alexa, Just Walk Out technology, Amazon Studios, and The Climate Pledge are some of the things pioneered by Amazon.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="jeff.jpg" alt="Jane" style="width:200px ; height:200px">
+      <div class="container">
+        <h2>Jeff Bezoz</h2>
+        <p class="title">Founder</p>
+        <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p> -->
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="andrew.jpg" alt="Mike" style="width:200px ; height:200px">
+      <div class="container">
+        <h2>Andrew Jassy</h2>
+        <p class="title">CEO</p>
+        <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p> -->
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="jeffery.jpg" alt="John" style="width:200px ; height:200px">
+      <div class="container">
+        <h2>Jeffrey Blackburn</h2>
+        <p class="title">Senior VP</p>
+        <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p> -->
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
